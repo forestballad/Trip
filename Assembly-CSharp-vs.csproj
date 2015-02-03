@@ -53,10 +53,12 @@
      <Compile Include="Assets\Scripts\GameMusicPlayer.cs" />
      <Compile Include="Assets\Scripts\LevelRestartLV05.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\MuteMusic.cs" />
      <Compile Include="Assets\Scripts\PlatformFallDown.cs" />
      <Compile Include="Assets\Scripts\QiuFeiController.cs" />
      <Compile Include="Assets\Scripts\QiuFeiControllerDJ.cs" />
      <Compile Include="Assets\Scripts\QiuFeiReposition.cs" />
+     <Compile Include="Assets\Scripts\RestartCurrentLevel.cs" />
      <Compile Include="Assets\Scripts\SceneFadeInOut.cs" />
      <Compile Include="Assets\Scripts\YeXiuMoveToRightEdgeLeve03.cs" />
      <Compile Include="Assets\Scripts\YexiuAppear.cs" />
