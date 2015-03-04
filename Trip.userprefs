@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MuteMusic.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\FlappyGlory\Assets\Scripts\EnterLevel.cs">
     <Files>
-      <File FileName="Assets\MuteMusic.cs" Line="22" Column="23" />
+      <File FileName="..\FlappyGlory\Assets\Scripts\EnterLevel.cs" Line="29" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

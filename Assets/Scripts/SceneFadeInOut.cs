@@ -9,7 +9,7 @@ public class SceneFadeInOut : MonoBehaviour
 
     void Awake()
     {
-        guiTexture.pixelInset = new Rect(0f, 0f, Screen.width, Screen.height);
+        GetComponent<GUITexture>().pixelInset = new Rect(0f, 0f, Screen.width, Screen.height);
     }
 
     void Update()
@@ -21,27 +21,27 @@ public class SceneFadeInOut : MonoBehaviour
 
     void FadeToClear()
     {
-        guiTexture.color = Color.Lerp(guiTexture.color, Color.clear, fadeSpeed = Time.deltaTime);
+        GetComponent<GUITexture>().color = Color.Lerp(GetComponent<GUITexture>().color, Color.clear, fadeSpeed = Time.deltaTime);
     }
 
     void FadeToBlack()
     {
-        guiTexture.color = Color.Lerp(guiTexture.color, Color.black, fadeSpeed = Time.deltaTime);
+        GetComponent<GUITexture>().color = Color.Lerp(GetComponent<GUITexture>().color, Color.black, fadeSpeed = Time.deltaTime);
     }
 
     void StartScene()
     {
         FadeToClear();
 
-        if (guiTexture.color.a == 0.05f)
+        if (GetComponent<GUITexture>().color.a == 0.05f)
         {
-            guiTexture.enabled = false;
+            GetComponent<GUITexture>().enabled = false;
         }
     }
 
     public void EndScene()
     {
-        guiTexture.enabled = true;
+        GetComponent<GUITexture>().enabled = true;
 
         FadeToBlack();
     }

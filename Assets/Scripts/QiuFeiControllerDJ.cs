@@ -20,7 +20,7 @@ public class QiuFeiControllerDJ : MonoBehaviour {
 
         if (!firstjump && Input.GetKeyDown(KeyCode.Space))
         {
-            rigidbody2D.AddForce(new Vector2(0, jumpForce));
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
             firstjump = true;
         }
     }
@@ -29,6 +29,6 @@ public class QiuFeiControllerDJ : MonoBehaviour {
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
         float move = Input.GetAxis("Horizontal");
-        rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
+        GetComponent<Rigidbody2D>().velocity = new Vector2(move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
     }
 }
