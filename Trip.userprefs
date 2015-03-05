@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\FlappyGlory\Assets\Scripts\EnterLevel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\FlappyGlory\Assets\Scripts\PlayerBird.cs">
     <Files>
-      <File FileName="..\FlappyGlory\Assets\Scripts\EnterLevel.cs" Line="29" Column="1" />
+      <File FileName="..\FlappyGlory\Assets\Scripts\DataAgent.cs" Line="251" Column="33" />
+      <File FileName="..\FlappyGlory\Assets\Scripts\GenerateBirdObstacle.cs" Line="23" Column="30" />
+      <File FileName="..\FlappyGlory\Assets\Scripts\ObstacleBird.cs" Line="16" Column="36" />
+      <File FileName="..\FlappyGlory\Assets\Scripts\PlayerBird.cs" Line="48" Column="103" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
