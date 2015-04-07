@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\FlappyGlory\Assets\Scripts\PlayerBird.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\titleControl.cs">
     <Files>
-      <File FileName="..\FlappyGlory\Assets\Scripts\DataAgent.cs" Line="251" Column="33" />
-      <File FileName="..\FlappyGlory\Assets\Scripts\GenerateBirdObstacle.cs" Line="23" Column="30" />
-      <File FileName="..\FlappyGlory\Assets\Scripts\ObstacleBird.cs" Line="16" Column="36" />
-      <File FileName="..\FlappyGlory\Assets\Scripts\PlayerBird.cs" Line="48" Column="103" />
+      <File FileName="Assets\Scripts\titleControl.cs" Line="14" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
